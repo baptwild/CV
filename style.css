@@ -1,0 +1,90 @@
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+header .pp {
+    justify-content: left;
+    margin: auto;
+    width: 150px;
+    border-radius: 30%;
+    border: 2px solid black;
+}
+
+#pp {
+    justify-content: center;
+    margin: auto;
+    width: 160px;
+    border-radius: 30%;
+    border: 2px solid black;
+}
+
+.title a:hover{
+  background-color: grey;
+}
+
+
+/* Main */
+.main {
+    display: flex;
+    background: lightpink;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: "Hiragino Kaku Gothic Pro";
+    width: 70%;
+    background: grey;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+/* Main left */
+.main .left .formations ul li {
+
+    font-weight: bold;
+    list-style: none;
+    color: red;
+}
+
+.main .left .formations ul li p {
+    color: black;
+    font-weight: normal;
+}
+
+/* Main right */
+.main .right ul li {
+
+    font-weight: bold;
+    list-style: none;
+    color: red;
+}
+
+.main .right ul li p {
+    color: black;
+    font-weight: normal;
+}
+
+.main .right ul li p span {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
